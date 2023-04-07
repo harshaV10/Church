@@ -1,0 +1,38 @@
+.ContactUs {
+    width: 100vw;
+    height: 20rem;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+.contactForm {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputField {
+    width: 20rem;
+    height: 30px;
+    margin-top: 13px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    background-color: #EEEEEE;
+}
+
+.submitButton {
+    width: 10rem;
+    margin-top: 20px;
+    height: 30px;
+    background-color: #210062;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}

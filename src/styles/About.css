@@ -1,0 +1,112 @@
+.aboutContainer {
+    width: 100vw;
+    /* background-color: whitesmoke; */
+}
+
+.heading {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutChurch {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.churchText {
+    padding-left: 30px;
+}
+
+.churchText p {
+    width: 90%;
+    margin-top: 15px;
+}
+
+.churchImage {
+    width: 40%;
+    height: 100%;
+    padding-right: 20px;
+    position: relative;
+}
+.churchImage img {
+    position: absolute;
+    z-index: 10;
+    margin-left: -100px;
+}
+
+.imgCircle {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background-color: #EEEEEE;
+    border-radius: 50%;
+    left: 20px;
+    margin-top: 30px;
+    z-index: 0;
+}
+
+.seeMore {
+    width: 100%;
+    margin-top: -10px;
+    display: flex;
+}
+
+/* .seeMore p{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 700;
+    color: #210062;
+    cursor: pointer;
+} */
+
+.slider {
+    width: 100%;
+    margin-top: 25px;
+}
+
+
+.imageSlider {
+    width: 150px;
+    height: 80px;
+    margin-right: 13px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.aboutFather {
+    margin-top: 30px;
+    width: 100%;
+    height: 30rem;
+}
+
+.aboutFather {
+    padding-left: 30px;
+    display: flex;
+}
+
+.aboutFather img {
+    width: 300px;
+    height: 300px;
+}
+
+.fatherText {
+    margin-top: 40px;
+    width: 55%;
+}
+
+.fatherText p {
+    margin-top: 15px;
+}
+
+.seeMoreText {
+    text-decoration: underline;
+    color: #210062;
+    font-weight: 700;
+    margin-left: 2px;
+}
